@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Light"
+    android:background="@android:drawable/editbox_background"
+    android:padding="10dp">
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:foregroundTint="#00000000"
+        android:theme="@android:style/Widget.Material.Light.SeekBar" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/asd"
+        android:text="Convert to base64"
+        android:layout_gravity="center"
+        android:theme="@android:style/Widget.Holo.Light.Button"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotImage"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/converted"
+        android:padding="10dp" />
+
+  </LinearLayout>
+</ScrollView>
